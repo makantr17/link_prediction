@@ -46,7 +46,7 @@ def main():
     
     
     # Display links
-    data= pd.read_csv('/content/gdrive/MyDrive/Colab Notebooks/assignment_4/cleanDoc.csv')
+    data= pd.read_csv('https://raw.githubusercontent.com/makantr17/link_prediction/main/cleanDoc.csv')
     data["label"] = label_enc.fit_transform(data[["label"]])  
       # when 'Predict' is clicked, make the prediction and store it 
     if st.button("Predict"): 
