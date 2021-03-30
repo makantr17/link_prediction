@@ -13,7 +13,7 @@ label_enc = LabelEncoder()
 tfid= pickle.load(open('Tfidfmodels.pkl','rb'))
 model=pickle.load(open('save.pkl','rb'))
 
-data= pd.read_csv('/content/gdrive/MyDrive/Colab Notebooks/assignment_4/cleanDoc.csv')
+data= pd.read_csv('https://raw.githubusercontent.com/makantr17/link_prediction/main/cleanDoc.csv')
 @st.cache()
 
   
